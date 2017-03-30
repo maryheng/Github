@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="Mirror_UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mirror_UI"
+        mc:Ignorable="d"
+        Height="1200" Width="540">
+    <Grid Background="White">
+        <Border x:Name="loanBorder" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="80" Margin="26,478,0,0" VerticalAlignment="Top" Width="477">
+            <TextBlock TextWrapping="Wrap" Margin="21,21,105.8,18" FontFamily="Noto Sans" FontSize="26"><Run Text="You have "/><Run FontWeight="Bold" Text="2" TextDecorations="Underline"/><Run Text=" items on loan!"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+        </Border>
+        <Border x:Name="eventsBorder" BorderBrush="Black" BorderThickness="1" Height="192" Margin="26,583,30.6,0" VerticalAlignment="Top"/>
+        <Border x:Name="twitterBorder" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="185" Margin="26,922,0,0" VerticalAlignment="Top" Width="477"/>
+
+        <Image x:Name="weather" HorizontalAlignment="Left" Height="83" Margin="26,10,0,0" VerticalAlignment="Top" Width="72" Source="C:\Users\mary\Documents\Visual Studio 2017\Projects\RawMirrorUI\Mirror_UI\Images\weather.png"/>
+        <TextBlock x:Name="welcomeMessage" HorizontalAlignment="Left" Height="105" Margin="63,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="409" FontSize="36" TextAlignment="Center" FontFamily="Noto Sans"><Run FontWeight="Bold" Text="Welcome Mary,"/><LineBreak/><Run FontWeight="Bold" Text="You look pretty today!"/></TextBlock>
+        <Label x:Name="eventTitle" Content="Upcoming Events" HorizontalAlignment="Left" Height="45" Margin="44,595,0,0" VerticalAlignment="Top" Width="222" FontSize="24" FontFamily="Noto Sans" FontWeight="Bold"/>
+        <Button x:Name="moreEvents" Content="&gt;" HorizontalAlignment="Left" Height="46" Margin="436,661,0,0" VerticalAlignment="Top" Width="47" FontSize="24"/>
+        <Image x:Name="profileImage" HorizontalAlignment="Left" Height="68" Margin="36,931,0,0" VerticalAlignment="Top" Width="58" Source="C:\Users\mary\Documents\Visual Studio 2017\Projects\RawMirrorUI\Mirror_UI\Images\bc45.jpg"/>
+        <Image x:Name="twitterImage" HorizontalAlignment="Left" Height="78" Margin="424,926,0,0" VerticalAlignment="Top" Width="67" Source="C:\Users\mary\Documents\Visual Studio 2017\Projects\RawMirrorUI\Mirror_UI\Images\twitter.png"/>
+        <Label x:Name="name" Content="Bing Cheng" HorizontalAlignment="Left" Height="30" Margin="102,936,0,0" VerticalAlignment="Top" Width="77" FontFamily="Noto Sans"/>
+        <Label x:Name="screenName" Content="@bingcheng45" HorizontalAlignment="Left" Height="31" Margin="101,955,0,0" VerticalAlignment="Top" Width="93" Foreground="#FF9E9E9E" FontFamily="Noto Sans"/>
+        <TextBlock x:Name="tweetText" HorizontalAlignment="Left" Height="84" Margin="46,1008,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="486" FontSize="16" FontFamily="Noto Sans"><Run Text="Just because you're trash, doesn't mean you can't do great things. "/><LineBreak/><Run Text="It is called a Garbage Can, not a Garbage Cannot."/></TextBlock>
+        <Label x:Name="tweetDate" Content="4:20 pm - 29 March 2017" Height="37" Width="259" Margin="41,1080,233.6,53.4" Foreground="#FFACACAC" FontFamily="Noto Sans"/>
+        <Label x:Name="event1" Content="05 APR&#x9;CXO Breakfast Talk with CEO of IMDA" HorizontalAlignment="Left" Height="26" Margin="46,645,0,0" VerticalAlignment="Top" Width="410" FontSize="14" FontFamily="Noto Sans"/>
+        <Label x:Name="event2" Content="20 APR&#x9;SME Day 2017" HorizontalAlignment="Left" Height="31" Margin="46,672,0,0" VerticalAlignment="Top" Width="169" FontSize="14" FontFamily="Noto Sans"/>
+        <TextBlock HorizontalAlignment="Left" Height="83" Margin="286,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" FontSize="24" TextAlignment="Right"><Run Text="4:20 PM"/><LineBreak/><Run Text="30 March 2017"/></TextBlock>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="104" Margin="26,798,0,0" VerticalAlignment="Top" Width="477"/>
+        <Label Content="Staff Available" HorizontalAlignment="Left" Height="40" Margin="44,802,0,0" VerticalAlignment="Top" Width="192" FontSize="24" FontFamily="Noto Sans" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Height="37" Margin="49,847,0,0" TextWrapping="Wrap" Text="Faith   Iskandar" VerticalAlignment="Top" Width="254" FontSize="14" FontFamily="Noto Sans"/>
+        <Button x:Name="BookMeetingRoomBtn" Content="Meeting&#xD;&#xA;Room" HorizontalAlignment="Left" Height="96" Margin="26,332,0,0" VerticalAlignment="Top" Width="120" FontFamily="Noto Sans" FontSize="18" RenderTransformOrigin="-0.959,0.439" Click="BookMeetingRoom_Click"/>
+        <Button Content="Items" HorizontalAlignment="Left" Height="96" Margin="211,332,0,0" VerticalAlignment="Top" Width="120" FontFamily="Noto Sans" FontSize="18"/>
+        <Button Content="3D Printers&#xD;&#xA;&amp;&#xD;&#xA;Laser Cutters" HorizontalAlignment="Left" Height="96" Margin="383,332,0,0" VerticalAlignment="Top" Width="120" FontFamily="Noto Sans" FontSize="18" OpacityMask="Black"/>
+        <Label Content="Booking" HorizontalAlignment="Left" Margin="26,269,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Noto Sans" FontWeight="Bold"/>
+
+    </Grid>
+</UserControl>
