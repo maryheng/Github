@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Mirror_UI.Event1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mirror_UI"
+        mc:Ignorable="d"
+        Height="960" Width="540">
+    <Grid Background="White">
+        <Label Content="Event&#xA;" HorizontalAlignment="Left" Height="78" Margin="76,19,0,0" VerticalAlignment="Top" Width="114" FontSize="24" FontFamily="Noto Sans"/>
+        <Button x:Name="BackButton" Content="&lt;" Height="50" Margin="0,15,472,0" VerticalAlignment="Top" FontSize="24" HorizontalAlignment="Right" Width="50" RenderTransformOrigin="0.508,0.5" Click="BackButton_Click" Background="White" BorderBrush="White"/>
+        <Label Content="CXO Breakfast Talk" HorizontalAlignment="Left" Height="67" Margin="99,115,0,0" VerticalAlignment="Top" Width="338" FontSize="34" FontFamily="Noto Sans" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="248" Margin="0,199,0,0" VerticalAlignment="Top" Width="540" Source="C:\Users\mary\Documents\Visual Studio 2017\Projects\RawMirrorUI\Mirror_UI\Images\imdaevent1.jpg"/>
+        <TextBlock HorizontalAlignment="Left" Height="89" Margin="41,487,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="449" FontSize="20" FontFamily="Noto Sans"><Run FontWeight="Bold" Text="Date: 05 April 2017 8:00 AM - 11:30 AM"/><LineBreak/><Run FontWeight="Bold" Text="Location: Suntec Singapore Convention &amp; Exhibition Centre, Level 3"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="83" Margin="305,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" FontSize="24" TextAlignment="Right" FontFamily="Noto Sans"><Run Text="4:20 PM"/><LineBreak/><Run Text="30 March 2017"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="274" Margin="42,603,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="456" FontSize="17" FontFamily="Noto Sans"><Run Text="Be part of the conversation with IMDA Chief Executive Officer Mr Tan Kiat How at the CXO Breakfast Talk on 5th April 2017."/><LineBreak/><Run/><LineBreak/><Run Text="This event is organised by Singapore infocomm Technology Federation for C-level Executives, Business Leaders, Entrepreneurs/Founders, Decision Makers and Strategic Executives from the Infocomm Media Industry. "/><LineBreak/><Run/><LineBreak/><Run Text="Registration Details: https://www.sitf.org.sg/EventDetail?EventKey=CXO032017"/></TextBlock>
+
+    </Grid>
+</UserControl>

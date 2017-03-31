@@ -14,9 +14,9 @@ using System.Windows.Shapes;
 
 namespace Mirror_UI
 {
-    public partial class MoreEvents : UserControl, ISwitchable
+    public partial class LoanInventoryItem : UserControl, ISwitchable
     {
-        public MoreEvents()
+        public LoanInventoryItem()
         {
             InitializeComponent();
         }
@@ -29,11 +29,6 @@ namespace Mirror_UI
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new MainWindow());
-        }
-
-        private void Event1Button_Click(object sender, RoutedEventArgs e)
-        {
-            Switcher.Switch(new Event1());
         }
     }
 }

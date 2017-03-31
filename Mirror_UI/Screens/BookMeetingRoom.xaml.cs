@@ -25,5 +25,10 @@ namespace Mirror_UI
         {
             throw new NotImplementedException();
         }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new MainWindow());
+        }
     }
 }

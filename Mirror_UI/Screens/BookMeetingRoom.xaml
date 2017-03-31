@@ -6,10 +6,21 @@
         xmlns:local="clr-namespace:Mirror_UI"
         mc:Ignorable="d"
         Height="960" Width="540">
-    <Grid Background="White">
+    <Grid Background="White" Margin="-1,0,1,0">
+        <Grid.ContextMenu>
+            <ContextMenu/>
+        </Grid.ContextMenu>
         <Label Content="Book Meeting Room&#xA;" HorizontalAlignment="Left" Height="46" Margin="76,19,0,0" VerticalAlignment="Top" Width="250" FontSize="24" FontFamily="Noto Sans"/>
-        <Button Content="&lt;" HorizontalAlignment="Left" Height="50" Margin="18,15,0,0" VerticalAlignment="Top" Width="50" FontSize="24"/>
+        <Button x:Name="BackButton" Content="&lt;" HorizontalAlignment="Left" Height="50" Margin="18,15,0,0" VerticalAlignment="Top" Width="50" FontSize="24" Click="BackButton_Click" FontFamily="Noto Sans" Background="White" BorderBrush="White"/>
         <TextBlock HorizontalAlignment="Left" Height="83" Margin="305,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" FontSize="24" TextAlignment="Right" FontFamily="Noto Sans"><Run Text="4:20 PM"/><LineBreak/><Run Text="30 March 2017"/></TextBlock>
+        <Label Content="Meeting Room:" HorizontalAlignment="Left" Margin="67,266,0,0" VerticalAlignment="Top" FontFamily="Noto Sans" FontSize="20" FontWeight="Bold"/>
+        <ComboBox HorizontalAlignment="Left" Margin="74,312,0,0" VerticalAlignment="Top" Width="392" Height="60" FontSize="18" FontFamily="Noto Sans" IsReadOnly="True">
+            <ComboBoxItem Content="Room 1"/>
+            <ComboBoxItem Content="Room 2"/>
+            <ComboBoxItem Content="Room 3"/>
+        </ComboBox>
+        <Button Content="Submit" HorizontalAlignment="Left" Margin="325,707,0,0" VerticalAlignment="Top" Width="141" FontSize="20" Height="59" FontFamily="Noto Sans"/>
+        <TextBlock x:Name="welcomeMessage" HorizontalAlignment="Left" Height="105" Margin="63,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="409" FontSize="36" TextAlignment="Center" FontFamily="Noto Sans"><Run FontWeight="Bold" Text="Hi Mary,"/><LineBreak/><Run FontWeight="Bold" Text="book a meeting room:"/></TextBlock>
 
     </Grid>
 </UserControl>

@@ -31,5 +31,25 @@ namespace Mirror_UI
         {
             Switcher.Switch(new BookMeetingRoom());
         }
+
+        private void LoanInventoryItemsButton_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new LoanInventoryItem());
+        }
+
+        private void ItemsOnLoanButton_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new MoreLoanItems());
+        }
+
+        private void MoreEventsButton_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new MoreEvents());
+        }
+
+        private void BookPrintersCuttersButton_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new BookPrinterAndLaser());
+        }
     }
 }

@@ -14,9 +14,12 @@ using System.Windows.Shapes;
 
 namespace Mirror_UI
 {
-    public partial class MoreEvents : UserControl, ISwitchable
+    /// <summary>
+    /// Interaction logic for Event1.xaml
+    /// </summary>
+    public partial class Event1 : UserControl, ISwitchable
     {
-        public MoreEvents()
+        public Event1()
         {
             InitializeComponent();
         }
@@ -28,12 +31,7 @@ namespace Mirror_UI
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new MainWindow());
-        }
-
-        private void Event1Button_Click(object sender, RoutedEventArgs e)
-        {
-            Switcher.Switch(new Event1());
+            Switcher.Switch(new MoreEvents());
         }
     }
 }

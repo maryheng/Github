@@ -54,11 +54,32 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Screens\Event1.xaml.cs">
+      <DependentUpon>Event1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\LoanInventoryItem.xaml.cs">
+      <DependentUpon>LoanInventoryItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\BookPrinterAndLaser.xaml.cs">
+      <DependentUpon>BookPrinterAndLaser.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ISwitchable.cs" />
     <Compile Include="PageSwitcher.xaml.cs">
       <DependentUpon>PageSwitcher.xaml</DependentUpon>
     </Compile>
     <Compile Include="Switcher.cs" />
+    <Page Include="Screens\Event1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Screens\LoanInventoryItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Screens\BookPrinterAndLaser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PageSwitcher.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -82,10 +103,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Screens\Event1Expanded.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="Screens\MoreEvents.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -96,9 +113,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Screens\Event1Expanded.xaml.cs">
-      <DependentUpon>Event1Expanded.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Screens\MoreEvents.xaml.cs">
       <DependentUpon>MoreEvents.xaml</DependentUpon>
     </Compile>

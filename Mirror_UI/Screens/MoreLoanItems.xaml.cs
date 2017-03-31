@@ -14,14 +14,21 @@ using System.Windows.Shapes;
 
 namespace Mirror_UI
 {
-    /// <summary>
-    /// Interaction logic for MoreLoanItems.xaml
-    /// </summary>
-    public partial class MoreLoanItems : Window
+    public partial class MoreLoanItems : UserControl, ISwitchable
     {
         public MoreLoanItems()
         {
-            //InitializeComponent();
+            InitializeComponent();
+        }
+
+        public void UtilizeState(object state)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new MainWindow());
         }
     }
 }

@@ -14,9 +14,12 @@ using System.Windows.Shapes;
 
 namespace Mirror_UI
 {
-    public partial class MoreEvents : UserControl, ISwitchable
+    /// <summary>
+    /// Interaction logic for BookPrinterAndLaser.xaml
+    /// </summary>
+    public partial class BookPrinterAndLaser : UserControl, ISwitchable
     {
-        public MoreEvents()
+        public BookPrinterAndLaser()
         {
             InitializeComponent();
         }
@@ -29,11 +32,6 @@ namespace Mirror_UI
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
             Switcher.Switch(new MainWindow());
-        }
-
-        private void Event1Button_Click(object sender, RoutedEventArgs e)
-        {
-            Switcher.Switch(new Event1());
         }
     }
 }
