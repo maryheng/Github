@@ -5,22 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Mirror_UI"
         mc:Ignorable="d"
-        Height="960" Width="540">
+        Height="1920" Width="1080">
     <Grid Background="White" Margin="-1,0,1,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="303*"/>
+        </Grid.RowDefinitions>
         <Grid.ContextMenu>
             <ContextMenu/>
         </Grid.ContextMenu>
-        <Label Content="Book Meeting Room&#xA;" HorizontalAlignment="Left" Height="46" Margin="76,19,0,0" VerticalAlignment="Top" Width="250" FontSize="24" FontFamily="Noto Sans"/>
-        <Button x:Name="BackButton" Content="&lt;" HorizontalAlignment="Left" Height="50" Margin="18,15,0,0" VerticalAlignment="Top" Width="50" FontSize="24" Click="BackButton_Click" FontFamily="Noto Sans" Background="White" BorderBrush="White"/>
-        <TextBlock HorizontalAlignment="Left" Height="83" Margin="305,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" FontSize="24" TextAlignment="Right" FontFamily="Noto Sans"><Run Text="4:20 PM"/><LineBreak/><Run Text="30 March 2017"/></TextBlock>
-        <Label Content="Meeting Room:" HorizontalAlignment="Left" Margin="67,266,0,0" VerticalAlignment="Top" FontFamily="Noto Sans" FontSize="20" FontWeight="Bold"/>
-        <ComboBox HorizontalAlignment="Left" Margin="74,312,0,0" VerticalAlignment="Top" Width="392" Height="60" FontSize="18" FontFamily="Noto Sans" IsReadOnly="True">
+        <Label Content="Book Meeting Room&#xA;" HorizontalAlignment="Left" Height="62" Margin="120,53,0,0" VerticalAlignment="Top" Width="323" FontSize="30" FontFamily="Noto Sans" Grid.RowSpan="2"/>
+        <Button x:Name="BackButton" Content="&lt;" HorizontalAlignment="Left" Height="50" Margin="42,49,0,0" VerticalAlignment="Top" Width="50" FontSize="40" Click="BackButton_Click" FontFamily="Noto Sans" Background="White" BorderBrush="White"/>
+        <Label Content="Meeting Room:" HorizontalAlignment="Left" Margin="120,361,0,0" VerticalAlignment="Top" FontFamily="Noto Sans" FontSize="34" FontWeight="Bold" Grid.Row="1"/>
+        <ComboBox HorizontalAlignment="Left" Margin="120,439,0,0" VerticalAlignment="Top" Width="807" Height="60" FontSize="24" FontFamily="Noto Sans" IsReadOnly="True" Grid.Row="1">
             <ComboBoxItem Content="Room 1"/>
             <ComboBoxItem Content="Room 2"/>
             <ComboBoxItem Content="Room 3"/>
         </ComboBox>
-        <Button Content="Submit" HorizontalAlignment="Left" Margin="325,707,0,0" VerticalAlignment="Top" Width="141" FontSize="20" Height="59" FontFamily="Noto Sans"/>
-        <TextBlock x:Name="welcomeMessage" HorizontalAlignment="Left" Height="105" Margin="63,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="409" FontSize="36" TextAlignment="Center" FontFamily="Noto Sans"><Run FontWeight="Bold" Text="Hi Mary,"/><LineBreak/><Run FontWeight="Bold" Text="book a meeting room:"/></TextBlock>
+        <Button Content="Submit" HorizontalAlignment="Left" Margin="786,732,0,0" VerticalAlignment="Top" Width="141" FontSize="20" Height="59" FontFamily="Noto Sans" Grid.Row="1"/>
+        <TextBlock x:Name="welcomeMessage" HorizontalAlignment="Left" Height="176" Margin="220,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="707" FontSize="50" TextAlignment="Center" FontFamily="Noto Sans" Grid.Row="1"><Run FontWeight="Bold" Text="Hi Mary,"/><LineBreak/><Run FontWeight="Bold" Text="book a meeting room:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="83" Margin="818,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" FontSize="30" TextAlignment="Right" FontFamily="Noto Sans" Grid.RowSpan="2"><Run Text="4:20 PM"/><LineBreak/><Run Text="30 March 2017"/></TextBlock>
 
     </Grid>
 </UserControl>

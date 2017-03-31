@@ -5,12 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Mirror_UI"
         mc:Ignorable="d"
-        Height="900" Width="600" Background="White">
+        Height="1920" Width="1080" Background="White">
     <Grid>
-        <Label Content="Loan" HorizontalAlignment="Left" Height="46" Margin="71,20,0,0" VerticalAlignment="Top" Width="66" FontSize="24" FontFamily="Noto Sans"/>
-        <Button x:Name="BackButton" Content="&lt;" HorizontalAlignment="Left" Height="50" Margin="18,15,0,0" VerticalAlignment="Top" Width="50" FontSize="24" Click="BackButton_Click" Background="White" BorderBrush="White"/>
-        <TextBlock HorizontalAlignment="Left" Height="83" Margin="359,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" FontSize="24" TextAlignment="Right" FontFamily="Noto Sans"><Run Text="4:20 PM"/><LineBreak/><Run Text="30 March 2017"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="104" Margin="76,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="459" FontSize="36" RenderTransformOrigin="0.5,0.5" FontFamily="Noto Sans" TextAlignment="Center">
+        <Label Content="Loan" HorizontalAlignment="Left" Height="46" Margin="108,33,0,0" VerticalAlignment="Top" Width="125" FontSize="34" FontFamily="Noto Sans"/>
+        <Button x:Name="BackButton" Content="&lt;" HorizontalAlignment="Left" Height="50" Margin="46,28,0,0" VerticalAlignment="Top" Width="50" FontSize="40" Click="BackButton_Click" Background="White" BorderBrush="White"/>
+        <TextBlock HorizontalAlignment="Left" Height="144" Margin="122,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="825" FontSize="50" RenderTransformOrigin="0.5,0.5" FontFamily="Noto Sans" TextAlignment="Center">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -18,8 +17,9 @@
                     <RotateTransform Angle="-0.14"/>
                     <TranslateTransform/>
                 </TransformGroup>
-            </TextBlock.RenderTransform><Run Text="Mary,"/><LineBreak/><Run Text="you have "/><Run FontWeight="Bold" Text="2" TextDecorations="Underline"/><Run Text=" items on loan."/></TextBlock>
-        <DataGrid HorizontalAlignment="Left" Height="509" Margin="67,269,0,0" VerticalAlignment="Top" Width="467" FontFamily="Noto Sans" IsReadOnly="True" AlternationCount="2" AlternatingRowBackground="#FFFDBDBD"/>
+            </TextBlock.RenderTransform><Run Text="Hi Mary,"/><LineBreak/><Run Text="you have "/><Run FontWeight="Bold" Text="2" TextDecorations="Underline"/><Run Text=" items on loan."/></TextBlock>
+        <DataGrid HorizontalAlignment="Left" Height="656" Margin="108,474,0,0" VerticalAlignment="Top" Width="868" FontFamily="Noto Sans" IsReadOnly="True" AlternationCount="2" AlternatingRowBackground="#FFFDBDBD"/>
+        <TextBlock HorizontalAlignment="Left" Height="83" Margin="818,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" FontSize="34" TextAlignment="Right" FontFamily="Noto Sans"><Run Text="4:20 PM"/><LineBreak/><Run Text="30 March 2017"/></TextBlock>
 
     </Grid>
 </UserControl>

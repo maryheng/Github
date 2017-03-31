@@ -5,23 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Mirror_UI"
         mc:Ignorable="d"
-        Height="960" Width="540">
+        Height="1920" Width="1080">
     <Grid Background="White">
-        <Label Content="Events" HorizontalAlignment="Left" Height="46" Margin="76,19,0,0" VerticalAlignment="Top" Width="89" FontSize="24" FontFamily="Noto Sans"/>
-        <Button x:Name="BackButton" Content="&lt;" HorizontalAlignment="Left" Height="50" Margin="18,15,0,0" VerticalAlignment="Top" Width="50" FontSize="24" Click="BackButton_Click" Background="White" BorderBrush="White"/>
-        <Label Content="Upcoming Events" HorizontalAlignment="Left" Height="60" Margin="103,106,0,0" VerticalAlignment="Top" Width="332" FontSize="36" FontWeight="Bold" FontFamily="Noto Sans"/>
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="329" Margin="18,193,0,0" VerticalAlignment="Top" Width="504"/>
-        <Image HorizontalAlignment="Left" Height="316" Margin="21,195,0,0" VerticalAlignment="Top" Width="497" Source="C:\Users\mary\Documents\Visual Studio 2017\Projects\RawMirrorUI\Mirror_UI\Images\imdaevent1.jpg"/>
-        <TextBlock HorizontalAlignment="Left" Height="87" Margin="7,435,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107" TextAlignment="Center" FontSize="24" FontFamily="Noto Sans"><Run FontWeight="Bold" Text="05"/><LineBreak/><Run FontWeight="Bold" Text="APR"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="74" Margin="112,435,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="337" FontSize="18" FontFamily="Noto Sans"><Run Text="Date : 05 April 2017 8:00 AM - 11:30 AM"/><LineBreak/><Run Text="Location: Suntec Singapore Convention &amp; Exhibition Centre, Level 3"/></TextBlock>
-        <Button x:Name="Event1Button" Content="&gt;" HorizontalAlignment="Left" Margin="469,456,0,0" VerticalAlignment="Top" Width="34" Height="35" FontSize="24" Click="Event1Button_Click" BorderBrush="White" Background="White" FontFamily="Noto Sans"/>
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="327" Margin="20,553,0,0" VerticalAlignment="Top" Width="504">
-            <Image HorizontalAlignment="Left" Height="250" Margin="5.2,4.2,0,0" VerticalAlignment="Top" Width="494" Source="C:\Users\mary\Documents\Visual Studio 2017\Projects\RawMirrorUI\Mirror_UI\Images\imdaevent2.jpg"/>
+        <Label Content="Events" HorizontalAlignment="Left" Height="46" Margin="105,41,0,0" VerticalAlignment="Top" Width="126" FontSize="34" FontFamily="Noto Sans"/>
+        <Button x:Name="BackButton" Content="&lt;" HorizontalAlignment="Left" Height="50" Margin="47,37,0,0" VerticalAlignment="Top" Width="50" FontSize="40" Click="BackButton_Click" Background="White" BorderBrush="White"/>
+        <Label Content="Upcoming Events" HorizontalAlignment="Left" Height="76" Margin="296,184,0,0" VerticalAlignment="Top" Width="457" FontSize="50" FontWeight="Bold" FontFamily="Noto Sans"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="540" Margin="134,338,0,0" VerticalAlignment="Top" Width="827"/>
+        <Image HorizontalAlignment="Left" Height="518" Margin="140,341,0,0" VerticalAlignment="Top" Width="815" Source="C:\Users\mary\Documents\Visual Studio 2017\Projects\RawMirrorUI\Mirror_UI\Images\imdaevent1.jpg"/>
+        <TextBlock HorizontalAlignment="Left" Height="143" Margin="118,744,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" TextAlignment="Center" FontSize="34" FontFamily="Noto Sans"><Run FontWeight="Bold" Text="05"/><LineBreak/><Run FontWeight="Bold" Text="APR"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="121" Margin="289,741,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="552" FontSize="24" FontFamily="Noto Sans"><Run Text="Date : 05 April 2017 8:00 AM - 11:30 AM"/><LineBreak/><Run Text="Location: Suntec Singapore Convention &amp; Exhibition Centre, Level 3"/></TextBlock>
+        <Button x:Name="Event1Button" Content="&gt;" HorizontalAlignment="Left" Margin="874,770,0,0" VerticalAlignment="Top" Width="56" Height="57" FontSize="34" Click="Event1Button_Click" BorderBrush="White" Background="White" FontFamily="Noto Sans"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="549" Margin="134,928,0,0" VerticalAlignment="Top" Width="827">
+            <Image HorizontalAlignment="Left" Height="369" Margin="-0.8,3.2,-0.6,0" VerticalAlignment="Top" Width="827" Source="C:\Users\mary\Documents\Visual Studio 2017\Projects\RawMirrorUI\Mirror_UI\Images\imdaevent2.jpg"/>
         </Border>
-        <TextBlock HorizontalAlignment="Left" Height="87" Margin="11,793,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107" TextAlignment="Center" FontSize="24" FontFamily="Noto Sans"><Run FontWeight="Bold" Text="05"/><LineBreak/><Run FontWeight="Bold" Text="APR"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="74" Margin="118,789,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="337" FontSize="18" FontFamily="Noto Sans"><Run Text="Date : 05 April 2017 8:00 AM - 11:30 AM"/><LineBreak/><Run Text="Location: Suntec Singapore Convention &amp; Exhibition Centre, Level 3"/></TextBlock>
-        <Button Content="&gt;" HorizontalAlignment="Left" Margin="469,810,0,0" VerticalAlignment="Top" Width="34" Height="35" FontSize="24" Background="White" BorderBrush="White"/>
-        <TextBlock HorizontalAlignment="Left" Height="91" Margin="299,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" FontSize="24" TextAlignment="Right" FontFamily="Noto Sans"><Run Text="4:20 PM"/><LineBreak/><Run Text="30 March 2017"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="87" Margin="154,1341,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107" TextAlignment="Center" FontSize="34" FontFamily="Noto Sans"><Run FontWeight="Bold" Text="05"/><LineBreak/><Run FontWeight="Bold" Text="APR"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="109" Margin="288,1337,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="474" FontSize="24" FontFamily="Noto Sans"><Run Text="Date : 05 April 2017 8:00 AM - 11:30 AM"/><LineBreak/><Run Text="Location: Suntec Singapore Convention &amp; Exhibition Centre, Level 3"/></TextBlock>
+        <Button Content="&gt;" HorizontalAlignment="Left" Margin="595,1180,0,0" VerticalAlignment="Top" Width="34" Height="35" FontSize="24" Background="White" BorderBrush="White"/>
+        <TextBlock HorizontalAlignment="Left" Height="83" Margin="818,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" FontSize="34" TextAlignment="Right" FontFamily="Noto Sans"><Run Text="4:20 PM"/><LineBreak/><Run Text="30 March 2017"/></TextBlock>
+        <Button x:Name="Event1Button_Copy" Content="&gt;" HorizontalAlignment="Left" Margin="874,1365,0,0" VerticalAlignment="Top" Width="56" Height="57" FontSize="34" Click="Event1Button_Click" BorderBrush="White" Background="White" FontFamily="Noto Sans"/>
 
     </Grid>
 </UserControl>

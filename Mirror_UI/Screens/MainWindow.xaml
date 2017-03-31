@@ -5,37 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Mirror_UI"
         mc:Ignorable="d"
-        Height="1200" Width="540">
+        Height="1920" Width="1080">
     <Grid Background="White">
-        <Border x:Name="loanBorder" BorderBrush="#FFEEEEEE" BorderThickness="3,1,3,3" HorizontalAlignment="Left" Height="80" Margin="26,512,0,0" VerticalAlignment="Top" Width="477" Opacity="0.695" Background="#FFEEEEEE"/>
-        <TextBlock TextWrapping="Wrap" Margin="51,541,233,630" FontFamily="Noto Sans" FontSize="18"><Run Text="You have "/><Run FontWeight="Bold" Text="2" TextDecorations="Underline"/><Run Text=" items on loan!"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+        <Border x:Name="loanBorder" BorderBrush="#FFEEEEEE" BorderThickness="3,1,3,3" HorizontalAlignment="Left" Height="80" Margin="105,837,0,0" VerticalAlignment="Top" Width="858" Opacity="0.695" Background="#FFEEEEEE"/>
+        <TextBlock TextWrapping="Wrap" Margin="139,860,630,1025" FontFamily="Noto Sans" FontSize="24"><Run Text="You have "/><Run FontWeight="Bold" Text="2" TextDecorations="Underline"/><Run Text=" items on loan!"/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
 
-        <Border x:Name="eventsBorder" BorderBrush="#FFEEEEEE" BorderThickness="3,1,3,3" Height="117" Margin="26,674,31,0" VerticalAlignment="Top" Opacity="0.7" Background="#FFEEEEEE"/>
-        <Border x:Name="twitterBorder" BorderBrush="#FFEEEEEE" BorderThickness="3,1,3,3" HorizontalAlignment="Left" Height="185" Margin="26,1004,0,0" VerticalAlignment="Top" Width="483" Opacity="0.7" Background="#FFEEEEEE"/>
-
-        <Image x:Name="weather" HorizontalAlignment="Left" Height="83" Margin="26,10,0,0" VerticalAlignment="Top" Width="72" Source="C:\Users\mary\Documents\Visual Studio 2017\Projects\RawMirrorUI\Mirror_UI\Images\weather.png"/>
-        <TextBlock x:Name="welcomeMessage" HorizontalAlignment="Left" Height="105" Margin="63,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="409" FontSize="36" TextAlignment="Center" FontFamily="Noto Sans"><Run FontWeight="Bold" Text="Welcome Mary,"/><LineBreak/><Run FontWeight="Bold" Text="You look pretty today!"/></TextBlock>
-        <Label x:Name="eventTitleButton" Content="Upcoming Events" HorizontalAlignment="Left" Height="45" Margin="26,620,0,0" VerticalAlignment="Top" Width="222" FontSize="26" FontFamily="Noto Sans" FontWeight="Bold"/>
-        <Button x:Name="MoreEventsButton" Content="&gt;" HorizontalAlignment="Left" Height="46" Margin="436,717,0,0" VerticalAlignment="Top" Width="47" FontSize="24" Click="MoreEventsButton_Click" BorderBrush="#FFEEEEEE" Background="#FFEEEEEE" RenderTransformOrigin="0.451,-0.567"/>
-        <Image x:Name="profileImage" HorizontalAlignment="Left" Height="68" Margin="36,1013,0,0" VerticalAlignment="Top" Width="58" Source="C:\Users\mary\Documents\Visual Studio 2017\Projects\RawMirrorUI\Mirror_UI\Images\bc45.jpg"/>
-        <Image x:Name="twitterImage" HorizontalAlignment="Left" Height="78" Margin="424,1008,0,0" VerticalAlignment="Top" Width="67" Source="C:\Users\mary\Documents\Visual Studio 2017\Projects\RawMirrorUI\Mirror_UI\Images\twitter.png"/>
-        <Label x:Name="name" Content="Bing Cheng" HorizontalAlignment="Left" Height="30" Margin="102,1018,0,0" VerticalAlignment="Top" Width="77" FontFamily="Noto Sans"/>
-        <Label x:Name="screenName" Content="@bingcheng45" HorizontalAlignment="Left" Height="31" Margin="101,1037,0,0" VerticalAlignment="Top" Width="93" Foreground="#FF9E9E9E" FontFamily="Noto Sans"/>
-        <TextBlock x:Name="tweetText" HorizontalAlignment="Left" Height="71" Margin="46,1090,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="457" FontSize="16" FontFamily="Noto Sans"><Run Text="Just because you're trash, doesn't mean you can't do great things. "/><LineBreak/><Run Text="It is called a Garbage Can, not a Garbage Cannot."/></TextBlock>
-        <Label x:Name="tweetDate" Content="4:20 pm - 29 March 2017" Height="37" Width="259" Margin="44,1161,237,2" Foreground="#FFACACAC" FontFamily="Noto Sans"/>
-        <Label x:Name="event1" Content="05 APR&#x9;CXO Breakfast Talk with CEO of IMDA" HorizontalAlignment="Left" Height="35" Margin="44,691,0,0" VerticalAlignment="Top" Width="410" FontSize="18" FontFamily="Noto Sans"/>
-        <Label x:Name="event2" Content="20 APR&#x9;SME Day 2017" HorizontalAlignment="Left" Height="31" Margin="44,728,0,0" VerticalAlignment="Top" Width="169" FontSize="18" FontFamily="Noto Sans"/>
-        <TextBlock HorizontalAlignment="Left" Height="83" Margin="286,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" FontSize="24" TextAlignment="Right"><Run Text="4:20 PM"/><LineBreak/><Run Text="30 March 2017"/></TextBlock>
-        <Border BorderBrush="#FFEEEEEE" BorderThickness="3,1,3,3" HorizontalAlignment="Left" Height="57" Margin="26,867,0,0" VerticalAlignment="Top" Width="483" Opacity="0.7" Background="#FFEEEEEE"/>
-        <Label Content="Staff Available" HorizontalAlignment="Left" Height="40" Margin="26,814,0,0" VerticalAlignment="Top" Width="206" FontSize="26" FontFamily="Noto Sans" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Height="39" Margin="51,885,0,0" TextWrapping="Wrap" Text="Faith   Iskandar" VerticalAlignment="Top" Width="197" FontSize="18" FontFamily="Noto Sans"/>
-        <Button x:Name="BookMeetingRoomBtn" Content="Meeting&#xD;&#xA;Room" HorizontalAlignment="Left" Height="96" Margin="26,330,0,0" VerticalAlignment="Top" Width="120" FontFamily="Noto Sans" FontSize="18" RenderTransformOrigin="-0.959,0.439" Click="BookMeetingRoom_Click" BorderBrush="White" Background="#FFEEEEEE"/>
-        <Button x:Name="LoanInventoryItemsButton" Content="Inventory&#xD;&#xA;Items" HorizontalAlignment="Left" Height="96" Margin="211,330,0,0" VerticalAlignment="Top" Width="120" FontFamily="Noto Sans" FontSize="18" Click="LoanInventoryItemsButton_Click" BorderBrush="White" Background="#FFEEEEEE"/>
-        <Button x:Name="BookPrintersCuttersButton" Content="3D Printers&#xD;&#xA;&amp;&#xD;&#xA;Laser Cutters" HorizontalAlignment="Left" Height="96" Margin="385,330,0,0" VerticalAlignment="Top" Width="120" FontFamily="Noto Sans" FontSize="18" OpacityMask="Black" Click="BookPrintersCuttersButton_Click" BorderBrush="White" Background="#FFEEEEEE" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MinHeight="4"/>
-        <Label Content="Booking" HorizontalAlignment="Left" Margin="24,277,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Noto Sans" FontWeight="Bold"/>
-        <Button x:Name="ItemsOnLoanButton" Content="&gt;" HorizontalAlignment="Left" Height="46" Margin="436,530,0,0" VerticalAlignment="Top" Width="47" FontSize="24" RenderTransformOrigin="0.391,-2.557" Click="ItemsOnLoanButton_Click" Background="#FFEEEEEE" BorderBrush="#FFEEEEEE"/>
-        <Label Content="Loan" HorizontalAlignment="Left" Margin="26,463,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Noto Sans" FontWeight="Bold"/>
-        <Label Content="Twitter Feed" HorizontalAlignment="Left" Height="40" Margin="26,943,0,0" VerticalAlignment="Top" Width="206" FontSize="26" FontFamily="Noto Sans" FontWeight="Bold"/>
+        <Border x:Name="eventsBorder" BorderBrush="#FFEEEEEE" BorderThickness="3,1,3,3" Height="117" Margin="105,1055,117,0" VerticalAlignment="Top" Opacity="0.7" Background="#FFEEEEEE"/>
+        <Border x:Name="twitterBorder" BorderBrush="#FFEEEEEE" BorderThickness="3,1,3,3" HorizontalAlignment="Left" Height="185" Margin="105,1519,0,0" VerticalAlignment="Top" Width="483" Opacity="0.7" Background="#FFEEEEEE">
+            <ListBox x:Name="TweetList" Margin="-0.2,0.2,-373,-0.4"/>
+        </Border>
+        <TextBlock x:Name="welcomeMessage" HorizontalAlignment="Left" Height="161" Margin="105,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="605" FontSize="50" FontFamily="Noto Sans"><Run FontWeight="Bold" Text="Welcome Mary,"/><LineBreak/><Run FontWeight="Bold" Text="You look pretty today!"/></TextBlock>
+        <Label x:Name="eventTitleButton" Content="Upcoming Events" HorizontalAlignment="Left" Height="57" Margin="105,973,0,0" VerticalAlignment="Top" Width="313" FontSize="34" FontFamily="Noto Sans" FontWeight="Bold"/>
+        <Button x:Name="MoreEventsButton" Content="&gt;" HorizontalAlignment="Left" Height="46" Margin="886,1095,0,0" VerticalAlignment="Top" Width="47" FontSize="24" Click="MoreEventsButton_Click" BorderBrush="#FFEEEEEE" Background="#FFEEEEEE" RenderTransformOrigin="0.451,-0.567"/>
+        <Label x:Name="event1" Content="05 APR&#x9;CXO Breakfast Talk with CEO of IMDA" HorizontalAlignment="Left" Height="35" Margin="139,1076,0,0" VerticalAlignment="Top" Width="541" FontSize="24" FontFamily="Noto Sans"/>
+        <Label x:Name="event2" Content="20 APR&#x9;SME Day 2017" HorizontalAlignment="Left" Height="57" Margin="139,1115,0,0" VerticalAlignment="Top" Width="279" FontSize="24" FontFamily="Noto Sans"/>
+        <TextBlock HorizontalAlignment="Left" Height="83" Margin="818,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" FontSize="30" TextAlignment="Right" FontFamily="Noto Sans"><Run Text="4:20 PM"/><LineBreak/><Run Text="30 March 2017"/></TextBlock>
+        <Border BorderBrush="#FFEEEEEE" BorderThickness="3,1,3,3" HorizontalAlignment="Left" Height="76" Margin="105,1314,0,0" VerticalAlignment="Top" Width="858" Opacity="0.7" Background="#FFEEEEEE"/>
+        <Label Content="Staff Available" HorizontalAlignment="Left" Height="51" Margin="105,1235,0,0" VerticalAlignment="Top" Width="255" FontSize="34" FontFamily="Noto Sans" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Height="45" Margin="139,1336,0,0" TextWrapping="Wrap" Text="Faith&#x9;   Iskandar" VerticalAlignment="Top" Width="221" FontSize="24" FontFamily="Noto Sans"/>
+        <Button x:Name="BookMeetingRoomBtn" Content="Meeting&#xD;&#xA;Room" HorizontalAlignment="Left" Height="101" Margin="105,596,0,0" VerticalAlignment="Top" Width="222" FontFamily="Noto Sans" FontSize="24" RenderTransformOrigin="-0.959,0.439" Click="BookMeetingRoom_Click" BorderBrush="White" Background="#FFEEEEEE"/>
+        <Button x:Name="LoanInventoryItemsButton" Content="Inventory&#xD;&#xA;Items" HorizontalAlignment="Left" Height="101" Margin="415,596,0,0" VerticalAlignment="Top" Width="220" FontFamily="Noto Sans" FontSize="24" Click="LoanInventoryItemsButton_Click" BorderBrush="White" Background="#FFEEEEEE"/>
+        <Button x:Name="BookPrintersCuttersButton" Content="3D Printers&#xD;&#xA;&amp;&#xD;&#xA;Laser Cutters" HorizontalAlignment="Left" Height="101" Margin="735,596,0,0" VerticalAlignment="Top" Width="228" FontFamily="Noto Sans" FontSize="24" OpacityMask="Black" Click="BookPrintersCuttersButton_Click" BorderBrush="White" Background="#FFEEEEEE" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MinHeight="4"/>
+        <Label Content="Booking" HorizontalAlignment="Left" Margin="105,515,0,0" VerticalAlignment="Top" FontSize="34" FontFamily="Noto Sans" FontWeight="Bold"/>
+        <Button x:Name="ItemsOnLoanButton" Content="&gt;" HorizontalAlignment="Left" Height="46" Margin="886,853,0,0" VerticalAlignment="Top" Width="47" FontSize="24" RenderTransformOrigin="0.391,-2.557" Click="ItemsOnLoanButton_Click" Background="#FFEEEEEE" BorderBrush="#FFEEEEEE"/>
+        <Label Content="Loan" HorizontalAlignment="Left" Margin="105,762,0,0" VerticalAlignment="Top" FontSize="34" FontFamily="Noto Sans" FontWeight="Bold"/>
+        <Label Content="Twitter Feed" HorizontalAlignment="Left" Height="51" Margin="105,1446,0,0" VerticalAlignment="Top" Width="255" FontSize="34" FontFamily="Noto Sans" FontWeight="Bold"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="226" Margin="715,208,0,0" Stroke="Black" VerticalAlignment="Top" Width="253"/>
+        <Image Margin="10,10,919,1759" Source="/Mirror_UI;component/weather.png" Stretch="Fill"/>
 
     </Grid>
 </UserControl>
+ 
